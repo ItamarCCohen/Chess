@@ -1,0 +1,31 @@
+table {
+    border: solid 3px red;
+    margin: auto;
+}
+
+td {
+    height: 55px;
+    width: 55px;
+    font-family: 'Times New Roman';
+}
+
+.dark-cell {
+    background-color: grey;
+}
+
+.light-cell {
+    background-color: white;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+}
+
+b {
+    text-decoration: underline;
+}
+
+.selected {
+    background-color: yellow;
+}
