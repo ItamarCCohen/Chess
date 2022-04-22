@@ -1,0 +1,51 @@
+table {
+    border: solid 3px red;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+img {
+    height: 30;
+    width: 30;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+td {
+    height: 70px;
+    width: 70px;
+    font-family: 'Times New Roman';
+    color: rgb(0, 0, 0);
+    text-align: inherit;
+}
+
+.dark-cell {
+    background-color: rgb(148, 1, 1);
+    height: 70px;
+    width: 70px;
+}
+
+.light-cell {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+}
+
+b {
+    text-decoration: underline;
+}
+
+.selected {
+    background-color: yellow;
+}
+
+.possible-move {
+    background: rgb(221, 142, 46);
+  }
