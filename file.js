@@ -46,13 +46,7 @@ class Piece {
             console.log("Unknown type", type)
         }
         console.log('Moves', moves);
-
-       //let absoluteMoves = [];
-       //for (let relativeMove of relativeMoves) {
-        // const absoluteRow = this.row + relativeMove[0];
-        // const absoluteCol = this.col + relativeMove[1];
-        //  absoluteMoves.push([absoluteRow, absoluteCol]);
-        // }
+        
         let filteredMoves = [];
         for (let absoluteMove of moves) {
             const absoluteRow = absoluteMove[0];
