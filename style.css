@@ -1,0 +1,65 @@
+table {
+    border: solid   10px rgb(133, 15, 15);
+    margin: auto;
+}
+
+img {
+    height: 30;
+    width: 30;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+td {
+    height: 70px;
+    width: 70px;
+    font-family: 'Times New Roman';
+    border: solid 1px black;
+     text-align: inherit;
+    
+    
+}
+
+
+.dark-cell {
+    background-color: rgb(148, 1, 1);
+    height: 70px;
+    width: 70px;
+    background-image: radial-gradient( rgba(150, 100, 100, 0.4) 25%, rgba(150, 100, 100, 0.6) 65%, rgba(150, 100, 100, 0.8) 100%) !important;
+    border: solid 1px black;
+}
+
+.light-cell {
+    background-color: rgb(212, 186, 186);
+    height: 70px;
+    width: 70px;
+    background-image: radial-gradient( rgba(100, 80, 80, 0.4) 25%, rgba(100, 80, 80, 0.7) 65%, rgba(100, 80, 80, 1) 100%) !important;
+    border: solid 1px black;
+}   
+
+
+p {
+    font-size: 40px;
+    text-align: center;
+}
+
+b {
+    text-decoration: underline;
+}
+
+.selected {
+box-shadow: inset 3px 3px rgb(12 9 31), inset -3px -3px rgb(12 9 31);
+background-image: radial-gradient( rgba(7, 7, 7, 0.4) 25%, rgba(7, 7, 7, 0.6) 65%, rgba(7, 7, 7, 0.8) 100%) !important;
+transition : background-color 1.5s ease;
+
+}
+
+.possible-move {
+     background-image: radial-gradient( rgba(7, 7, 7, 0.4) 25%, rgba(7, 7, 7, 0.6) 65%, rgba(7, 7, 7, 0.8) 100%) !important;
+    transition : background-color 1.7s ease;
+}
+
+
+
